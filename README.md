@@ -7,6 +7,11 @@ The goal of this project is so classify the presence of pneumonia in a patient b
 Available on Kaggle [1]. 5863 labelled x-ray images from a frontal view. There are 2 categories of normal/pneumonia.
 
 ## Process (TODO)
+Notes:
+* Look into image processing (already grey scale but could use sharpening or something)
+* Do a basic CNN implementation, try some different hidden layer configurations
+* Look into AllCNN - https://arxiv.org/abs/1412.6806#
+* An Introduction to different Types of Convolutions in Deep Learning - https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d
 
 ## Sources (TODO: formatting)
 1 - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
