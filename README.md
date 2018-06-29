@@ -11,7 +11,8 @@ Available on Kaggle [1]. 5863 labelled x-ray images from a frontal view. There a
 1. Create a basic CNN classifier similar to assignment 3.
 * July 16, 2018
 2. Try some different hidden layer configurations and convolutions to see what is most effective.
-... TOODO
+
+... TODO
 
 Notes:
 * Look into image processing (already grey scale but could use sharpening or something)
