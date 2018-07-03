@@ -7,7 +7,7 @@ The goal of this project is so classify the presence of pneumonia in a patient b
 Available on Kaggle [1]. 5863 labelled x-ray images from a frontal view. There are 2 categories of normal/pneumonia.
 
 ## Milestones
-* July 9, 2018
+* July 11, 2018
 1. Create a basic CNN classifier that has an acceptable (about 70%) accuracy on test data.
 * July 19, 2018
 2. Try different types of convolutions and note the effect on test accuracy.
