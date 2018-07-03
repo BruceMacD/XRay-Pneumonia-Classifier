@@ -8,15 +8,11 @@ Available on Kaggle [1]. 5863 labelled x-ray images from a frontal view. There a
 
 ## Milestones
 * July 11, 2018
-1. Create a basic CNN classifier that has an acceptable (about 70%) accuracy on test data.
+1. Find a pre-trained neural net.
 * July 19, 2018
-2. Try different types of convolutions and note the effect on test accuracy.
-    * Convolution layer parameters -> kernel size, stride, padding.
-    * Dilated convolutions
-    * Transposed convolutions
-    * Separable convolutions
+2. Strip off the last few layers of the model and specialize them.
 * July 30, 2018
-3. Try implementing an experimental AllCNN, a CNN consisting of solely convolutional layers. 
+3. Find some related work on weird stuff. 
  
 
 Notes:
@@ -24,6 +20,14 @@ Notes:
 * Do a basic CNN implementation, try some different hidden layer configurations
 * Look into AllCNN - https://arxiv.org/abs/1412.6806#
 * An Introduction to different Types of Convolutions in Deep Learning - https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d
+
+Notes from meeting with Dr. Oore:
+Get a pre-trained net, strip off last few layers and specialize them.
+Edge filters will be prelearned. 
+By adding a tiny bit where did we get on competition spread.
+Using a fraction off the data what is the impact/risk on model?
+If you do weird things show you looked for realted work.
+Fair bit of related work stuff.
 
 ## Work Log
 Keep track of hours here:
