@@ -34,6 +34,7 @@ Notes from meeting with Dr. Oore:
 
 ## Work Log
 Keep track of hours here:
+
 July 5 - 2 hours - Figuring out Kaggle kernals. 
 
 ## Sources (TODO: formatting)
