@@ -13,6 +13,9 @@ Available on Kaggle [1]. 5863 labelled x-ray images from a frontal view. There a
 2. Strip off the last few layers of the model and specialize them.
 * July 30, 2018
 3. Find some related work on weird stuff. 
+
+## Installation:
+* Go look at the Kaggle notebook, this repo is just for reference.
  
 
 Notes:
@@ -31,6 +34,7 @@ Notes from meeting with Dr. Oore:
 
 ## Work Log
 Keep track of hours here:
+July 5 - 2 hours - Figuring out Kaggle kernals. 
 
 ## Sources (TODO: formatting)
 1 - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
