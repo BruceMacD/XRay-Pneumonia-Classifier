@@ -35,8 +35,8 @@ Notes from meeting with Dr. Oore:
 ## Work Log
 Keep track of hours here:
 
-July 5 - 2 hours - Figuring out Kaggle kernals. 
-Huly 10 - 1.5 hours - Annotating notebook while gathering information on models and techniques currently implemented.
+* July 5 - 2 hours - Figuring out Kaggle kernals. 
+* July 10 - 1.5 hours - Annotating notebook while gathering information on models and techniques currently implemented.
 
 ## Sources (TODO: formatting)
 1 - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
