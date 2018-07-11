@@ -29,7 +29,7 @@ Notes from meeting with Dr. Oore:
 * Edge filters will be prelearned. 
 * By adding a tiny bit where did we get on competition spread.
 * Using a fraction off the data what is the impact/risk on model?
-* If you do weird things show you looked for realted work.
+* If you do weird things show you looked for related work.
 * Fair bit of related work stuff.
 
 ## Work Log
