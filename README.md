@@ -38,6 +38,8 @@ Keep track of hours here:
 * July 5 - 2 hours - Figuring out Kaggle kernals. 
 * July 10 - 1.5 hours - Annotating notebook while gathering information on models and techniques currently implemented.
 * July 11 - 2 hours - More refactoring and trying out a new top-layer on the model.
+* July 12 - 2 hours - Reading on different output activations, trying some different training configurations.
 
 ## Sources (TODO: formatting)
 1 - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+2 - https://cs231n.github.io/neural-networks-1/
