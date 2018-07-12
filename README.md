@@ -42,4 +42,9 @@ Keep track of hours here:
 
 ## Sources (TODO: formatting)
 1 - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+
 2 - https://cs231n.github.io/neural-networks-1/
+
+3 - https://github.com/bendidi/X-ray-classification
+
+4 - https://lhncbc.nlm.nih.gov/system/files/pub9175.pdf
