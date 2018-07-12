@@ -40,7 +40,7 @@ Keep track of hours here:
 * July 11 - 2 hours - More refactoring and trying out a new top-layer on the model.
 * July 12 - 2 hours - Reading on different output activations, trying some different training configurations.
 
-## Sources (TODO: formatting)
+## Resources (TODO: formatting)
 1 - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 2 - https://cs231n.github.io/neural-networks-1/
@@ -48,3 +48,5 @@ Keep track of hours here:
 3 - https://github.com/bendidi/X-ray-classification
 
 4 - https://lhncbc.nlm.nih.gov/system/files/pub9175.pdf
+
+5 - https://arxiv.org/abs/1803.02315
