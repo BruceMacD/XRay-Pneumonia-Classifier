@@ -50,3 +50,5 @@ Keep track of hours here:
 4 - https://lhncbc.nlm.nih.gov/system/files/pub9175.pdf
 
 5 - https://arxiv.org/abs/1803.02315
+
+6 - https://jacobgil.github.io/deeplearning/pruning-deep-learning
