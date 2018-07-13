@@ -41,6 +41,7 @@ Keep track of hours here:
 * July 12 - 2 hours - Reading on different output activations, trying some different training configurations.
 
 ## Resources (TODO: formatting)
+# General Resources
 1 - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 2 - https://cs231n.github.io/neural-networks-1/
@@ -51,4 +52,5 @@ Keep track of hours here:
 
 5 - https://arxiv.org/abs/1803.02315
 
-6 - https://jacobgil.github.io/deeplearning/pruning-deep-learning
+# To explore
+1 - https://jacobgil.github.io/deeplearning/pruning-deep-learning
