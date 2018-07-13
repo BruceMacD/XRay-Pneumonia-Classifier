@@ -39,9 +39,10 @@ Keep track of hours here:
 * July 10 - 1.5 hours - Annotating notebook while gathering information on models and techniques currently implemented.
 * July 11 - 2 hours - More refactoring and trying out a new top-layer on the model.
 * July 12 - 2 hours - Reading on different output activations, trying some different training configurations.
+* July 13 - 2 hours (Seth) - Reading about removing layers from an NN, researching guided backprop and transfer learning
 
 ## Resources (TODO: formatting)
-# General Resources
+### General Resources
 1 - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 2 - https://cs231n.github.io/neural-networks-1/
@@ -52,5 +53,9 @@ Keep track of hours here:
 
 5 - https://arxiv.org/abs/1803.02315
 
-# To explore
+### To explore
 1 - https://jacobgil.github.io/deeplearning/pruning-deep-learning
+
+2 - http://ruder.io/transfer-learning/  (This is basically what we're trying to do. Good to use from report; endorsement from Andrew Ng)
+
+3 - http://www.cs.toronto.edu/~guerzhoy/321/lec/W07/HowConvNetsSee.pdf (Slide 14, Guided Backprop). Could be useful in getting our network to "assume" certain information about the xrays, like the fact that they are likely to contain pneumonia victims
