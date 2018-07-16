@@ -58,6 +58,8 @@ Keep track of hours here:
 
 6 - http://www.steves-digicams.com/knowledge-center/brightness-contrast-saturation-and-sharpness.html (for data augmentation)
 
+7 - https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
+
 ### To explore
 1 - https://jacobgil.github.io/deeplearning/pruning-deep-learning
 
