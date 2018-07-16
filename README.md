@@ -41,6 +41,7 @@ Keep track of hours here:
 * July 12 - 2 hours - Reading on different output activations, trying some different training configurations.
 * July 13 - 2 hours (Seth) - Reading about removing layers from an NN, researching guided backprop and transfer learning
 * July 13 - 2.5 hours (Bruce) - Reading about transfer learning (which we are already doing), implementing and testing sharpening input images
+* July 14 - 1.5 hours (Bruce) - Noticed that resnet50 was suggested as a popular solution for x-ray classification in papers[4]. Implemented a restnet50 classifier with transfer learning, but it was not very successful.
 
 ## Resources (TODO: formatting)
 ### General Resources
