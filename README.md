@@ -56,6 +56,8 @@ Keep track of hours here:
 
 5 - https://arxiv.org/abs/1803.02315
 
+6 - http://www.steves-digicams.com/knowledge-center/brightness-contrast-saturation-and-sharpness.html (for data augmentation)
+
 ### To explore
 1 - https://jacobgil.github.io/deeplearning/pruning-deep-learning
 
