@@ -42,6 +42,7 @@ Keep track of hours here:
 * July 13 - 2 hours (Seth) - Reading about removing layers from an NN, researching guided backprop and transfer learning
 * July 13 - 2.5 hours (Bruce) - Reading about transfer learning (which we are already doing), implementing and testing sharpening input images
 * July 14 - 1.5 hours (Bruce) - Noticed that resnet50 was suggested as a popular solution for x-ray classification in papers[4]. Implemented a restnet50 classifier with transfer learning, but it was not very successful.
+* July 16 - 1 hour (Seth) - Still trying to understand guided backpropagation. Found several resources.
 
 ## Resources (TODO: formatting)
 ### General Resources
@@ -60,4 +61,11 @@ Keep track of hours here:
 
 2 - http://ruder.io/transfer-learning/  (This is basically what we're trying to do. Good to use from report; endorsement from Andrew Ng)
 
-3 - http://www.cs.toronto.edu/~guerzhoy/321/lec/W07/HowConvNetsSee.pdf (Slide 14, Guided Backprop). Could be useful in getting our network to "assume" certain information about the xrays, like the fact that they are likely to contain pneumonia victims
+#### Guided Backprop
+1 - http://www.cs.toronto.edu/~guerzhoy/321/lec/W07/HowConvNetsSee.pdf (Slide 14, Guided Backprop). Could be useful in getting our network to "assume" certain information about the xrays, like the fact that they are likely to contain pneumonia victims
+
+2 - https://arxiv.org/pdf/1412.6806.pdf The authority on gbp
+
+3 - https://github.com/Lasagne/Recipes/blob/master/examples/Saliency%20Maps%20and%20Guided%20Backpropagation.ipynb GBP with lasagne
+
+4 - https://ramprs.github.io/2017/01/21/Grad-CAM-Making-Off-the-Shelf-Deep-Models-Transparent-through-Visual-Explanations.html   GBP + GRAD-CAM explanation
