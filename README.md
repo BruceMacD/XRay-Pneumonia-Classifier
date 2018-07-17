@@ -65,6 +65,10 @@ Keep track of hours here:
 
 2 - http://ruder.io/transfer-learning/  (This is basically what we're trying to do. Good to use from report; endorsement from Andrew Ng)
 
+3 - https://arxiv.org/pdf/1712.07632.pdf preprocessing xrays by removing bones to increase accuracy
+
+4 - https://stats.stackexchange.com/questions/191397/understanding-probabilistic-neural-networks Probablistic neural networks. 
+
 #### Guided Backprop
 1 - http://www.cs.toronto.edu/~guerzhoy/321/lec/W07/HowConvNetsSee.pdf (Slide 14, Guided Backprop). Could be useful in getting our network to "assume" certain information about the xrays, like the fact that they are likely to contain pneumonia victims
 
