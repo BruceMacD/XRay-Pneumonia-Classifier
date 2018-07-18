@@ -53,6 +53,7 @@ Keep track of hours here:
 * July 13 - 2.5 hours (Bruce) - Reading about transfer learning (which we are already doing), implementing and testing sharpening input images
 * July 14 - 1.5 hours (Bruce) - Noticed that resnet50 was suggested as a popular solution for x-ray classification in papers[4]. Implemented a restnet50 classifier with transfer learning, but it was not very successful.
 * July 16 - 1 hour (Seth) - Still trying to understand guided backpropagation. Found several resources.
+* July 18 - 1.5 hours (Bruce) - Working on stripping off a layer from vgg16 and doing transfer learning.
 
 ## Resources (TODO: formatting)
 ### General Resources
