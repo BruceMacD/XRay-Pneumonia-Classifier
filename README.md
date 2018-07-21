@@ -55,6 +55,7 @@ Keep track of hours here:
 * July 16 - 1 hour (Seth) - Still trying to understand guided backpropagation. Found several resources.
 * July 18 - 1.5 hours (Bruce) - Working on stripping off a layer from vgg16 and doing transfer learning.
 * July 20 - 1.5 hours (Bruce) - Adding a new fully connected layer to stripped vgg16
+* July 21 - 2 hours (Bruce) - modifications to new vgg16 layer along with research
 
 ## Resources (TODO: formatting)
 ### General Resources
@@ -75,6 +76,8 @@ Keep track of hours here:
 8 - https://arxiv.org/pdf/1709.09902.pdf
 
 9 - https://arxiv.org/pdf/1502.03167.pdf%E7%9A%84paper%E9%80%82%E5%90%88%E6%83%B3%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3%E5%8E%9F%E7%90%86%EF%BC%8C%E8%BF%99%E4%B8%AA%E8%A7%86%E9%A2%91%E5%BE%88%E6%B8%85%E6%A5%9A%E7%9A%84%E8%AE%B2%E4%BA%86bn%E8%B5%B7%E5%88%B0%E7%9A%84%E4%BD%9C%E7%94%A8%E3%80%82
+
+10 - Seperable Conv - https://arxiv.org/abs/1610.02357
 
 ### To explore
 1 - https://jacobgil.github.io/deeplearning/pruning-deep-learning
