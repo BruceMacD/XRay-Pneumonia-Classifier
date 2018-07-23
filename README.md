@@ -58,6 +58,7 @@ Keep track of hours here:
 * July 20 - 1.5 hours (Bruce) - Adding a new fully connected layer to stripped vgg16
 * July 21 - 2 hours (Bruce) - modifications to new vgg16 layer along with research
 * July 22 - 4 hours (Seth) - Working on data augmentation function with ImageDataGenerator. Using https://machinelearningmastery.com/image-augmentation-deep-learning-keras/ as reference, but I keep getting an ValueError. I think it has something to do with colormaps. I might also be stupid
+* July 22 - 1 hour (Bruce) - last layer modifications, different optimizer, research, 400 iteration training on Adam optimizer
 
 ## Resources (TODO: formatting)
 ### General Resources
