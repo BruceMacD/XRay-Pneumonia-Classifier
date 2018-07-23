@@ -37,7 +37,7 @@ Notes from second meeting with Dr. Oore:
 * Try stripping layers from pre-trained model, with a fully connected layer at the end
 * Take of different amounts of layers, freeze the pretrained layers and train the new ones
 * Data augmentation, we can do rotation, augmentation gives more examples.
-* Note why shaprening augmentation didnt work
+* Note why shaprening augmentation didnt work - Seth: didn't we do preprocessing instead of augmentation?
 * Yes/No feature pre-processing
 * Different nets may have different cielings
 * Ensemble nets (vgg16 and simple net)
@@ -57,6 +57,7 @@ Keep track of hours here:
 * July 18 - 1.5 hours (Bruce) - Working on stripping off a layer from vgg16 and doing transfer learning.
 * July 20 - 1.5 hours (Bruce) - Adding a new fully connected layer to stripped vgg16
 * July 21 - 2 hours (Bruce) - modifications to new vgg16 layer along with research
+* July 22 - 4 hours (Seth) - Working on data augmentation function with ImageDataGenerator. Using https://machinelearningmastery.com/image-augmentation-deep-learning-keras/ as reference, but I keep getting an ValueError. I think it has something to do with colormaps. I might also be stupid
 
 ## Resources (TODO: formatting)
 ### General Resources
