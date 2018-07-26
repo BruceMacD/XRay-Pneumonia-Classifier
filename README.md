@@ -1,7 +1,7 @@
 # XRay-Pneumonia-Classifier
 
 ## Project Description
-The goal of this project is so classify the presence of pneumonia in a patient based off their chest x-ray. There are 3 different examples in the dataset (normal, bacterial pneumonia, and viral pneumonia). Our initial goal is to classify the yes/no question for if a patient has malaria. We will research a variety of models to see what is the most effective.
+The goal of this project is so classify the presence of pneumonia in a patient based off their chest x-ray. There are 3 different examples in the dataset (normal, bacterial pneumonia, and viral pneumonia). Our initial goal is to classify the yes/no question for if a patient has pneumonia. We will research a variety of models to see what is the most effective.
 
 ## Dataset
 Available on Kaggle [1]. 5863 labelled x-ray images from a frontal view. There are 2 categories of normal/pneumonia.
@@ -15,7 +15,8 @@ Available on Kaggle [1]. 5863 labelled x-ray images from a frontal view. There a
 3. Find some related work on weird stuff. 
 
 ## Installation:
-* Go look at the Kaggle notebook, this repo is just for reference.
+* [Running the Kaggle kernal is the easiest method of runnning this notebook.](https://www.kaggle.com/brucemacd/detecting-pneumonia-in-x-ray-images)
+* If you are running the notebook locally you must download the [data source](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and extract it to the root of the directory of this repo.
  
 
 Notes:
