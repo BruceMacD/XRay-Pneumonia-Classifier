@@ -62,6 +62,7 @@ Keep track of hours here:
 * July 22 - 1 hour (Bruce) - last layer modifications, different optimizer, research, 400 iteration training on Adam optimizer
 * July 23 - 2.5 hours (Bruce) - trying different loss params, stripping another layer, and testing
 * July 26 - 3.5 hours (Bruce) - rerunning models for report explaining differences observed
+* July 27 - 3 hours (Bruce) - documentation and stripped model tweaking/testing
 
 ## Resources (TODO: formatting)
 ### General Resources
