@@ -63,6 +63,7 @@ Keep track of hours here:
 * July 23 - 2.5 hours (Bruce) - trying different loss params, stripping another layer, and testing
 * July 26 - 3.5 hours (Bruce) - rerunning models for report explaining differences observed
 * July 27 - 3 hours (Bruce) - documentation and stripped model tweaking/testing
+* July 29 - 2.5 hours (Bruce) - stripped model data and training comparisons
 
 ## Resources (TODO: formatting)
 ### General Resources
