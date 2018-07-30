@@ -64,6 +64,7 @@ Keep track of hours here:
 * July 26 - 3.5 hours (Bruce) - rerunning models for report explaining differences observed
 * July 27 - 3 hours (Bruce) - documentation and stripped model tweaking/testing
 * July 29 - 2.5 hours (Bruce) - stripped model data and training comparisons
+* July 29 - 3 hours (Bruce) - stripped model softmax vs. sigmoid, investigating training loss increase and fluctuations, starting on Inception V3 model stripping
 
 ## Resources (TODO: formatting)
 ### General Resources
