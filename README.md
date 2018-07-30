@@ -46,10 +46,10 @@ Notes from second meeting with Dr. Oore:
 ## Work Log
 Keep track of hours here:
 
-* July 5 - 2 hours - Figuring out Kaggle kernals. 
-* July 10 - 1.5 hours - Annotating notebook while gathering information on models and techniques currently implemented.
-* July 11 - 2 hours - More refactoring and trying out a new top-layer on the model.
-* July 12 - 2 hours - Reading on different output activations, trying some different training configurations.
+* July 5 - 2 hours (Bruce) - Figuring out Kaggle kernals. 
+* July 10 - 1.5 hours (Bruce) - Annotating notebook while gathering information on models and techniques currently implemented.
+* July 11 - 2 hours (Bruce) - More refactoring and trying out a new top-layer on the model.
+* July 12 - 2 hours (Bruce) - Reading on different output activations, trying some different training configurations.
 * July 13 - 2 hours (Seth) - Reading about removing layers from an NN, researching guided backprop and transfer learning
 * July 13 - 2.5 hours (Bruce) - Reading about transfer learning (which we are already doing), implementing and testing sharpening input images
 * July 14 - 1.5 hours (Bruce) - Noticed that resnet50 was suggested as a popular solution for x-ray classification in papers[4]. Implemented a restnet50 classifier with transfer learning, but it was not very successful.
