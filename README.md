@@ -67,6 +67,7 @@ Keep track of hours here:
 * July 30 - 3 hours (Bruce) - stripped model softmax vs. sigmoid, investigating training loss increase and fluctuations, starting on Inception V3 model stripping
 * July 31 - 3 hours (Bruce) - running more iterations on stripped VGG16 (200 epochs) to observe results, more work Inception V3 model stripping. Turns out stripping doesnt work the same way for Inception. We need to set the model up the connect new layers instead of popping them. This means some changes to how we currently work with the model (only for this step). Going to try doing some pre-processing first because its a bit of an undertaking.
 * August 1 - 3.5 hours (Bruce) - Added, visualized, and tested training data augmentation on a pretrained model with sigmoid output. Good results.
+* August 3 - 2 hours (Bruce) - Refactoring augmented training data, researching results, more training iterations
 
 ## Resources (TODO: formatting)
 ### General Resources
