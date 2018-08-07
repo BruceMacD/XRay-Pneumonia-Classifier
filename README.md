@@ -69,6 +69,7 @@ Keep track of hours here:
 * August 1 - 3.5 hours (Bruce) - Added, visualized, and tested training data augmentation on a pretrained model with sigmoid output. Good results.
 * August 3 - 2 hours (Bruce) - Refactoring augmented training data, researching results, more training iterations
 * August 5 - 2.5 hours (Bruce) - Training stripped layers on augmented data
+* August 7 - 4.5 hours (Seth) - kaggle issues, catching up on previous work, figuring out why train is good but test is bad in the case with ResNet50. Seth Goals: Figure out why some tests were so bad, ensemble learning, saving weights, and cleaning up notebook + working on report.
 
 ## Resources (TODO: formatting)
 ### General Resources
