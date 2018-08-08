@@ -70,6 +70,7 @@ Keep track of hours here:
 * August 3 - 2 hours (Bruce) - Refactoring augmented training data, researching results, more training iterations
 * August 5 - 2.5 hours (Bruce) - Training stripped layers on augmented data
 * August 7 - 4.5 hours (Seth) - kaggle issues, catching up on previous work, figuring out why train is good but test is bad in the case with ResNet50. Seth Goals: Figure out why some tests were so bad, ensemble learning, saving weights, and cleaning up notebook + working on report.
+* August 8 - 3.5 hrs (Seth) - playing with regularizers, investigating resnet issue
 
 ## Resources (TODO: formatting)
 ### General Resources
