@@ -70,7 +70,7 @@ Keep track of hours here:
 * August 3 - 2 hours (Bruce) - Refactoring augmented training data, researching results, more training iterations
 * August 5 - 2.5 hours (Bruce) - Training stripped layers on augmented data
 * August 7 - 4.5 hours (Seth) - kaggle issues, catching up on previous work, figuring out why train is good but test is bad in the case with ResNet50. Seth Goals: Figure out why some tests were so bad, ensemble learning, saving weights, and cleaning up notebook + working on report.
-* August 8 - 3.5 hrs (Seth) - playing with regularizers, investigating resnet issue
+* August 8 - 5 hrs (Seth) - playing with regularizers, investigating resnet issue. I'm pretty sure we're borked when it comes to using resnet. Just trying to figure out why.
 
 ## Resources (TODO: formatting)
 ### General Resources
@@ -93,6 +93,8 @@ Keep track of hours here:
 9 - https://arxiv.org/pdf/1502.03167.pdf%E7%9A%84paper%E9%80%82%E5%90%88%E6%83%B3%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3%E5%8E%9F%E7%90%86%EF%BC%8C%E8%BF%99%E4%B8%AA%E8%A7%86%E9%A2%91%E5%BE%88%E6%B8%85%E6%A5%9A%E7%9A%84%E8%AE%B2%E4%BA%86bn%E8%B5%B7%E5%88%B0%E7%9A%84%E4%BD%9C%E7%94%A8%E3%80%82
 
 10 - Seperable Conv - https://arxiv.org/abs/1610.02357
+
+11 - where we got a bunch of code: https://mc.ai/detect-pneumonia-from-x-ray-using-convolutional-neural-network/
 
 ### To explore
 1 - https://jacobgil.github.io/deeplearning/pruning-deep-learning
