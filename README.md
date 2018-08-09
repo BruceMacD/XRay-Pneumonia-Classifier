@@ -76,7 +76,7 @@ Keep track of hours here:
     * saving weights, and 
     * cleaning up notebook + working on report.
 * August 8 - 7 hrs (Seth) - playing with regularizers, investigating resnet issue. I'm pretty sure we're borked when it comes to using resnet. Just trying to figure out why. https://stackoverflow.com/questions/50364706/massive-overfit-during-resnet50-transfer-learning & https://github.com/keras-team/keras/issues/7177 & https://github.com/keras-team/keras/pull/9965 . Seems to be known issue with ResNet50
-* August 9 - 3 hrs (Seth) - researching links from yesterday, ran resnet with augmentedPretrainedOutputNode. Working on + research of ensemble learning. 
+* August 9 - 3 hrs (Seth) - researching links from yesterday, ran resnet with augmentedPretrainedOutputNode. Working on + research of ensemble learning. https://hackernoon.com/training-your-deep-model-faster-and-sharper-e85076c3b047 & https://towardsdatascience.com/ensembling-convnets-using-keras-237d429157eb
   * Although there could be a few more experiments we could do for it (ie, check Keras Batch Normalization techniques), I think issues concerning why resnet sucks may be better left as an open question / something we explore further in the report. 
 
 
