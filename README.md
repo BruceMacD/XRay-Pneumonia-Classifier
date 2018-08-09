@@ -70,7 +70,8 @@ Keep track of hours here:
 * August 3 - 2 hours (Bruce) - Refactoring augmented training data, researching results, more training iterations
 * August 5 - 2.5 hours (Bruce) - Training stripped layers on augmented data
 * August 7 - 4.5 hours (Seth) - kaggle issues, catching up on previous work, figuring out why train is good but test is bad in the case with ResNet50. Seth Goals: Figure out why some tests were so bad, ensemble learning, saving weights, and cleaning up notebook + working on report.
-* August 8 - 5 hrs (Seth) - playing with regularizers, investigating resnet issue. I'm pretty sure we're borked when it comes to using resnet. Just trying to figure out why.
+* August 8 - 6 hrs (Seth) - playing with regularizers, investigating resnet issue. I'm pretty sure we're borked when it comes to using resnet. Just trying to figure out why. https://stackoverflow.com/questions/50364706/massive-overfit-during-resnet50-transfer-learning & https://github.com/keras-team/keras/issues/7177 . Seems to be known issue with ResNet50
+
 
 ## Resources (TODO: formatting)
 ### General Resources
