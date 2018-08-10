@@ -58,7 +58,7 @@ Keep track of hours here:
 * July 18 - 1.5 hours (Bruce) - Working on stripping off a layer from vgg16 and doing transfer learning.
 * July 20 - 1.5 hours (Bruce) - Adding a new fully connected layer to stripped vgg16
 * July 21 - 2 hours (Bruce) - modifications to new vgg16 layer along with research
-* July 22 - 4 hours (Seth) - Working on data augmentation function with ImageDataGenerator. Using https://machinelearningmastery.com/image-augmentation-deep-learning-keras/ as reference, but I keep getting an ValueError. I think it has something to do with colormaps. I might also be stupid
+* July 22 - 4 hours (Seth) - Working on data augmentation function with ImageDataGenerator. Using https://machinelearningmastery.com/image-augmentation-deep-learning-keras/ as reference, but I keep getting an ValueError. I think it has something to do with colormaps.
 * July 22 - 1 hour (Bruce) - last layer modifications, different optimizer, research, 400 iteration training on Adam optimizer
 * July 23 - 2.5 hours (Bruce) - trying different loss params, stripping another layer, and testing
 * July 26 - 3.5 hours (Bruce) - rerunning models for report explaining differences observed
@@ -77,7 +77,8 @@ Keep track of hours here:
     * cleaning up notebook + working on report.
 * August 8 - 7 hrs (Seth) - playing with regularizers, investigating resnet issue. I'm pretty sure we're borked when it comes to using resnet. Just trying to figure out why. https://stackoverflow.com/questions/50364706/massive-overfit-during-resnet50-transfer-learning & https://github.com/keras-team/keras/issues/7177 & https://github.com/keras-team/keras/pull/9965 . Seems to be known issue with ResNet50
 * August 9 - 5.5 hrs (Seth) - researching links from yesterday, ran resnet with augmentedPretrainedOutputNode. Working on + research of ensemble learning. https://hackernoon.com/training-your-deep-model-faster-and-sharper-e85076c3b047 & https://towardsdatascience.com/ensembling-convnets-using-keras-237d429157eb
-  * Although there could be a few more experiments we could do for it (ie, check Keras Batch Normalization techniques), I think issues concerning why resnet sucks may be better left as an open question / something we explore further in the report. 
+  * Although there could be a few more experiments we could do for it (ie, check Keras Batch Normalization techniques), I think issues concerning why resnet sucks may be better left as an open question / something we explore further in the report.
+* August 10 - 6 hrs (Seth) - researching ensemble learning, created + ran ensemble model using vgg16 and inceptionv3 (got alright results). Tried different things with the ensemble learning, like using undersampled data and creating another layer on top of the ensemble. Started figuring out a way to do stacked ensemble learning (I was using an average before). Worked on report.
 
 
 ## Resources (TODO: formatting)
