@@ -38,7 +38,7 @@ Notes from second meeting with Dr. Oore:
 * Try stripping layers from pre-trained model, with a fully connected layer at the end
 * Take of different amounts of layers, freeze the pretrained layers and train the new ones
 * Data augmentation, we can do rotation, augmentation gives more examples.
-* Note why shaprening augmentation didnt work - Seth: didn't we do preprocessing instead of augmentation?
+* Note why shaprening augmentation didnt work 
 * Yes/No feature pre-processing
 * Different nets may have different cielings
 * Ensemble nets (vgg16 and simple net)
