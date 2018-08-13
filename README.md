@@ -79,6 +79,7 @@ Keep track of hours here:
 * August 9 - 5.5 hrs (Seth) - researching links from yesterday, ran resnet with augmentedPretrainedOutputNode. Working on + research of ensemble learning. https://hackernoon.com/training-your-deep-model-faster-and-sharper-e85076c3b047 & https://towardsdatascience.com/ensembling-convnets-using-keras-237d429157eb
   * Although there could be a few more experiments we could do for it (ie, check Keras Batch Normalization techniques), I think issues concerning why resnet sucks may be better left as an open question / something we explore further in the report.
 * August 10 - 6 hrs (Seth) - researching ensemble learning, created + ran ensemble model using vgg16 and inceptionv3 (got alright results). Tried different things with the ensemble learning, like using undersampled data and creating another layer on top of the ensemble. Started figuring out a way to do stacked ensemble learning (I was using an average before). Worked on report.
+* August 12 - 4 hrs (Seth) - trying to figure out stacking ensemble learning. did a couple experiments with putting a classifier on top of Inception/VGG, but it seems like stacking ensembles are not the easiest to create in Keras. I poked around some more with ResNet, but I still can't figure out why it misclassifies so many data points. Finally, worked on presentation.
 
 
 ## Resources (TODO: formatting)
