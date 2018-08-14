@@ -38,7 +38,7 @@ Notes from second meeting with Dr. Oore:
 * Try stripping layers from pre-trained model, with a fully connected layer at the end
 * Take of different amounts of layers, freeze the pretrained layers and train the new ones
 * Data augmentation, we can do rotation, augmentation gives more examples.
-* Note why shaprening augmentation didnt work - Seth: didn't we do preprocessing instead of augmentation?
+* Note why shaprening augmentation didnt work 
 * Yes/No feature pre-processing
 * Different nets may have different cielings
 * Ensemble nets (vgg16 and simple net)
@@ -58,7 +58,7 @@ Keep track of hours here:
 * July 18 - 1.5 hours (Bruce) - Working on stripping off a layer from vgg16 and doing transfer learning.
 * July 20 - 1.5 hours (Bruce) - Adding a new fully connected layer to stripped vgg16
 * July 21 - 2 hours (Bruce) - modifications to new vgg16 layer along with research
-* July 22 - 4 hours (Seth) - Working on data augmentation function with ImageDataGenerator. Using https://machinelearningmastery.com/image-augmentation-deep-learning-keras/ as reference, but I keep getting an ValueError. I think it has something to do with colormaps. I might also be stupid
+* July 22 - 4 hours (Seth) - Working on data augmentation function with ImageDataGenerator. Using https://machinelearningmastery.com/image-augmentation-deep-learning-keras/ as reference, but I keep getting an ValueError. I think it has something to do with colormaps.
 * July 22 - 1 hour (Bruce) - last layer modifications, different optimizer, research, 400 iteration training on Adam optimizer
 * July 23 - 2.5 hours (Bruce) - trying different loss params, stripping another layer, and testing
 * July 26 - 3.5 hours (Bruce) - rerunning models for report explaining differences observed
@@ -69,6 +69,18 @@ Keep track of hours here:
 * August 1 - 3.5 hours (Bruce) - Added, visualized, and tested training data augmentation on a pretrained model with sigmoid output. Good results.
 * August 3 - 2 hours (Bruce) - Refactoring augmented training data, researching results, more training iterations
 * August 5 - 2.5 hours (Bruce) - Training stripped layers on augmented data
+* August 7 - 4.5 hours (Seth) - kaggle issues, catching up on previous work, figuring out why train is good but test is bad in the case with ResNet50. 
+  * Seth Goals: 
+    * Figure out why some tests were so bad, 
+    * ensemble learning, 
+    * saving weights, and 
+    * cleaning up notebook + working on report.
+* August 8 - 7 hrs (Seth) - playing with regularizers, investigating resnet issue. I'm pretty sure we're borked when it comes to using resnet. Just trying to figure out why. https://stackoverflow.com/questions/50364706/massive-overfit-during-resnet50-transfer-learning & https://github.com/keras-team/keras/issues/7177 & https://github.com/keras-team/keras/pull/9965 . Seems to be known issue with ResNet50
+* August 9 - 5.5 hrs (Seth) - researching links from yesterday, ran resnet with augmentedPretrainedOutputNode. Working on + research of ensemble learning. https://hackernoon.com/training-your-deep-model-faster-and-sharper-e85076c3b047 & https://towardsdatascience.com/ensembling-convnets-using-keras-237d429157eb
+  * Although there could be a few more experiments we could do for it (ie, check Keras Batch Normalization techniques), I think issues concerning why resnet sucks may be better left as an open question / something we explore further in the report.
+* August 10 - 6 hrs (Seth) - researching ensemble learning, created + ran ensemble model using vgg16 and inceptionv3 (got alright results). Tried different things with the ensemble learning, like using undersampled data and creating another layer on top of the ensemble. Started figuring out a way to do stacked ensemble learning (I was using an average before). Worked on report.
+* August 12 - 4 hrs (Seth) - trying to figure out stacking ensemble learning. did a couple experiments with putting a classifier on top of Inception/VGG, but it seems like stacking ensembles are not the easiest to create in Keras. I poked around some more with ResNet, but I still can't figure out why it misclassifies so many data points. Finally, worked on presentation.
+
 
 ## Resources (TODO: formatting)
 ### General Resources
@@ -91,6 +103,8 @@ Keep track of hours here:
 9 - https://arxiv.org/pdf/1502.03167.pdf%E7%9A%84paper%E9%80%82%E5%90%88%E6%83%B3%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3%E5%8E%9F%E7%90%86%EF%BC%8C%E8%BF%99%E4%B8%AA%E8%A7%86%E9%A2%91%E5%BE%88%E6%B8%85%E6%A5%9A%E7%9A%84%E8%AE%B2%E4%BA%86bn%E8%B5%B7%E5%88%B0%E7%9A%84%E4%BD%9C%E7%94%A8%E3%80%82
 
 10 - Seperable Conv - https://arxiv.org/abs/1610.02357
+
+11 - where we got a bunch of code: https://mc.ai/detect-pneumonia-from-x-ray-using-convolutional-neural-network/
 
 ### To explore
 1 - https://jacobgil.github.io/deeplearning/pruning-deep-learning
