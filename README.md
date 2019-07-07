@@ -43,44 +43,6 @@ Notes from second meeting with Dr. Oore:
 * Different nets may have different cielings
 * Ensemble nets (vgg16 and simple net)
 
-## Work Log
-Keep track of hours here:
-
-* July 5 - 2 hours (Bruce) - Figuring out Kaggle kernals. 
-* July 10 - 1.5 hours (Bruce) - Annotating notebook while gathering information on models and techniques currently implemented.
-* July 11 - 2 hours (Bruce) - More refactoring and trying out a new top-layer on the model.
-* July 12 - 2 hours (Bruce) - Reading on different output activations, trying some different training configurations.
-* July 13 - 2 hours (Seth) - Reading about removing layers from an NN, researching guided backprop and transfer learning
-* July 13 - 2.5 hours (Bruce) - Reading about transfer learning (which we are already doing), implementing and testing sharpening input images
-* July 14 - 1.5 hours (Bruce) - Noticed that resnet50 was suggested as a popular solution for x-ray classification in papers[4]. Implemented a restnet50 classifier with transfer learning, but it was not very successful.
-* July 16 - 1 hour (Seth) - Still trying to understand guided backpropagation. Found several resources.
-* July 17 - 1 hour (Seth) - Understanding guided backprop, and research into different models and ensembles
-* July 18 - 1.5 hours (Bruce) - Working on stripping off a layer from vgg16 and doing transfer learning.
-* July 20 - 1.5 hours (Bruce) - Adding a new fully connected layer to stripped vgg16
-* July 21 - 2 hours (Bruce) - modifications to new vgg16 layer along with research
-* July 22 - 4 hours (Seth) - Working on data augmentation function with ImageDataGenerator. Using https://machinelearningmastery.com/image-augmentation-deep-learning-keras/ as reference, but I keep getting an ValueError. I think it has something to do with colormaps.
-* July 22 - 1 hour (Bruce) - last layer modifications, different optimizer, research, 400 iteration training on Adam optimizer
-* July 23 - 2.5 hours (Bruce) - trying different loss params, stripping another layer, and testing
-* July 26 - 3.5 hours (Bruce) - rerunning models for report explaining differences observed
-* July 27 - 3 hours (Bruce) - documentation and stripped model tweaking/testing
-* July 29 - 2.5 hours (Bruce) - stripped model data and training comparisons
-* July 30 - 3 hours (Bruce) - stripped model softmax vs. sigmoid, investigating training loss increase and fluctuations, starting on Inception V3 model stripping
-* July 31 - 3 hours (Bruce) - running more iterations on stripped VGG16 (200 epochs) to observe results, more work Inception V3 model stripping. Turns out stripping doesnt work the same way for Inception. We need to set the model up the connect new layers instead of popping them. This means some changes to how we currently work with the model (only for this step). Going to try doing some pre-processing first because its a bit of an undertaking.
-* August 1 - 3.5 hours (Bruce) - Added, visualized, and tested training data augmentation on a pretrained model with sigmoid output. Good results.
-* August 3 - 2 hours (Bruce) - Refactoring augmented training data, researching results, more training iterations
-* August 5 - 2.5 hours (Bruce) - Training stripped layers on augmented data
-* August 7 - 4.5 hours (Seth) - kaggle issues, catching up on previous work, figuring out why train is good but test is bad in the case with ResNet50. 
-  * Seth Goals: 
-    * Figure out why some tests were so bad, 
-    * ensemble learning, 
-    * saving weights, and 
-    * cleaning up notebook + working on report.
-* August 8 - 7 hrs (Seth) - playing with regularizers, investigating resnet issue. I'm pretty sure we're borked when it comes to using resnet. Just trying to figure out why. https://stackoverflow.com/questions/50364706/massive-overfit-during-resnet50-transfer-learning & https://github.com/keras-team/keras/issues/7177 & https://github.com/keras-team/keras/pull/9965 . Seems to be known issue with ResNet50
-* August 9 - 5.5 hrs (Seth) - researching links from yesterday, ran resnet with augmentedPretrainedOutputNode. Working on + research of ensemble learning. https://hackernoon.com/training-your-deep-model-faster-and-sharper-e85076c3b047 & https://towardsdatascience.com/ensembling-convnets-using-keras-237d429157eb
-  * Although there could be a few more experiments we could do for it (ie, check Keras Batch Normalization techniques), I think issues concerning why resnet sucks may be better left as an open question / something we explore further in the report.
-* August 10 - 6 hrs (Seth) - researching ensemble learning, created + ran ensemble model using vgg16 and inceptionv3 (got alright results). Tried different things with the ensemble learning, like using undersampled data and creating another layer on top of the ensemble. Started figuring out a way to do stacked ensemble learning (I was using an average before). Worked on report.
-* August 12 - 4 hrs (Seth) - trying to figure out stacking ensemble learning. did a couple experiments with putting a classifier on top of Inception/VGG, but it seems like stacking ensembles are not the easiest to create in Keras. I poked around some more with ResNet, but I still can't figure out why it misclassifies so many data points. Finally, worked on presentation.
-
 
 ## Resources (TODO: formatting)
 ### General Resources
